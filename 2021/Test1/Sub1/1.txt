@@ -1,0 +1,7 @@
+1. b
+2. b
+3. a
+4. d
+5. c 
+
+total => 20p (toate corecte)

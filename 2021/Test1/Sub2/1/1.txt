@@ -1,0 +1,26 @@
+a) m = -1
+b) 7777, 7888, 7999
+c) merge normal
+d) 
+
+citeste n 
+m <- 10
+daca n = 0 atunci 
+    m <- 0
+altfel
+    c <- n%10
+    n <- [n/10]
+    daca c<=m atunci m<-c
+    altfel m<- -1
+    cat timp n!=0 executa
+        c <- n%10
+        n <- [n/10]
+        daca c<=m atunci m<-c
+        altfel m<- -1
+scrie m
+
+total => 28p (tot corect)
+
+
+
+
