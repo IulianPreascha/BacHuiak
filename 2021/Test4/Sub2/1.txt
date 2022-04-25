@@ -1,0 +1,17 @@
+1
+a. 15
+b. 100000, 98888
+c. facut
+d. 
+
+citeste n,k 
+p <- 1
+daca n > 0 atunci
+    repeta 
+    c <- n % 10
+    daca k > 0 atunci 
+        daca c%2 = 1 atunci
+            p <- p * c
+    n <- [n / 10]; k <- k -1
+    pana cand n <= 0
+scrie p

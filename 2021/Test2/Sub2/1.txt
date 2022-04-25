@@ -1,0 +1,18 @@
+a. -1 21
+b. 12345, 12346
+c. l-am scris
+d. 
+
+citeste n
+s <- 1
+c1 <- n%10; n<-[n/10]; c2<-n%10
+daca c1 = c2 atunci s <- 0
+altfel
+    daca c1<c2 atunci s <- -1
+
+daca (c1-c2)*s>0 si n > 9 atunci
+    repeta 
+    c1 <- n%10; n<- [n/10]; c2 <- n%10
+    pana cand !((c1-c2)*s) > 0 si n>9)
+
+scrie s,' ',n

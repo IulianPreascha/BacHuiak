@@ -1,0 +1,18 @@
+1
+a. 8820
+b. 864, 642
+c. facut
+d. 
+
+citeste n
+x <- 0; m <- 0; p <- 1
+cat timp x<10 executa
+    cn <- n
+    if(cn != 0) atunci
+        repeta
+            c <- cn%10; cn <- [cn/10]
+            daca c = x atunci
+                m <- c*p+m; p <- p*10
+        pana cand cn == 0
+    x <- x + 2
+scrie m
