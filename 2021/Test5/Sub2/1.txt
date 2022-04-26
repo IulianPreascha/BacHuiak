@@ -1,0 +1,17 @@
+1. 
+a. 17396
+b. 3, 23, 11, 0
+c. corect
+d. incorect 
+
+citeste x
+y <- 0
+repeta 
+    daca x>9 atunci
+        x <- [x/10]
+        cat timp x>9 executa
+            x <- [x/10]
+        y <- y * 10 + x
+        citeste x
+pana cand x = 0
+scrie y
