@@ -1,0 +1,16 @@
+1. 
+a. 7
+b. 61, 62
+c. ideal
+d. 
+
+citeste x,y
+k <- 0; i <- x
+pentru i <- x, i <= y, pas executa
+    n <- i; c <- 0
+    cat timp n > 0 si c = 0 executa
+        daca n % 2 = 1 atunci c <- 1
+        n = [n/10]
+    k = k + c
+    i = i + 1
+scrie k
