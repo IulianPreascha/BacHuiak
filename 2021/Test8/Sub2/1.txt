@@ -1,0 +1,16 @@
+1.
+a. 440
+b. 6, 13
+c. ideal
+d. 
+
+citeste n
+x <- 0
+i = 1
+    cat timp v<=n execta
+        daca i % 2 = 0 atunci
+            x <- x + i * i
+        altfetl
+            x <- x + (i+1)*(i+1)
+    i = i + 1
+scrie x
