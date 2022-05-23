@@ -1,4 +1,5 @@
 1.
 a. ABABABAB
 b. 18 19
-c. 
+c. ideal
+d.
