@@ -1,0 +1,18 @@
+1. d
+2. c
+3. 
+dokker(negru) duster(negru) lodgy(gri) logan(alb) sandero(rosu)
+1               2               3       4           5
+NU (prima sa nu fie 5) (4 inainte de 1 sau 2)
+
+453 435
+
+solutie: logan, lodgy, sandero
+
+4. 
+
+s = info@roocnee.eu
+s = info@roocnee
+rocnee 
+
+5. b
