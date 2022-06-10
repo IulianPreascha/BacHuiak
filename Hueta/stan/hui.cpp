@@ -1,25 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int sumDiv(int n) {
-    int sumD = 0;
-    for(int d = 1; d<=n; d++) {
-        if(n%d == 0) {
-            sumD = sumD + d;
-        }
-    }
-    return sumD;
-}
+ofstream fout("bac.txt");
 
-int armonie(int x, int y) {
-    if(x+y > sumDiv(x) && x+y < sumDiv(y))
-        return 1;
-    else return 0;
-}
+long int x, y, crt;
 
 int main() {
-    
-    cout<<armonie(8,12);
+
+    cin>>x>>y;
+    fout<<y<<" "<<x<<" ";
+    crt = 3*x-y;
+    while(crt<=x) {
+        fout<<crt<<" ";
+        y = x;
+        x = crt;
+        crt = 3*x-y;
+    }
 
     return 0;
 }
